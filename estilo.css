@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Arial Rounded MT Bold';
+    src: url('fonts/arialroundedmtbold.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: "Arial Rounded MT Bold", Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, rgb(0, 162, 255), rgb(106, 234, 238));;
+    background-color: rgb(0, 162, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.formulario {
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.informacoes {
+    width: 100%;
+    height: 95vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.719);
+    background-color: #ffffff9f;
+    padding: 1rem;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    align-items: center;
+
+}
+
+.dadosw label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #000000c0;
+    
+}
+
+.caixa label {
+    font-size: 0.65rem;
+    font-weight: 500;
+    color: #000000c0;
+}
+
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.dados input {
+    margin: 0.2rem 0;
+    padding: 0.5rem 0.5rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #0000001c;
+}
+
+.dados input:hover {
+    background-color: #eeeeee75;
+}
+
+.dados input:focus-visible {
+    outline: 2px solid rgb(19, 105, 105);
+}
+
+.dados label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.dados input::placeholder {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: 000000be;
+}
+
+.titulo1 {
+    align-items: center;
+    justify-content: center;    
+}
+
+.subtitulo {
+    align-items: center;
+    justify-content: center;
+}
+
+.termouso {
+    background-color: rgba(255, 255, 255, 0.123);
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+    padding: 1rem   ;
+}
+
+h1 {
+    line-height: 0.25rem;
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(4, 46, 46);
+}
+
+h2 {
+    font-style: italic;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(4, 46, 46);
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: rgb(4, 46, 46);
+}
+
+h3::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: rgb(0, 162, 255);
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.termouso label {
+    font-size: 0.85rem;
+    font-weight: 600;rgb(96, 100, 100)
+    color: #000000c0;
+}
+
+a {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: rgb(19, 105, 105);
+}
+
+.botao  {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.botao input {
+    width: 90px;
+    padding: 5px;
+    background-color: rgb(19, 105, 105);
+    color: #fff;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+}
+
+button {
+    width: 90px;
+    padding: 5px;
+    background-color: rgb(19, 105, 105);
+    color: #fff;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+}
+
+.itens {
+    width: 100%;
+    height: 37vh;
+    border-radius: 5px;
+    background-color: #ffffff50;
+    padding: 0.05rem;
+}
+
+textarea {
+    width: 100%;
+    height: 37vh;
+    border: none;
+    background-color: #ffffff00;
+}
